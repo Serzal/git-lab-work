@@ -1,13 +1,10 @@
-#!/usr/bin/env python3
+cat > src/main.py << 'EOF' 
+#!/usr/bin/env python3 
+
 
 def greet(name: str) -> str:
     """Повертає вітальне повідомлення."""
-    return f"Привіт, {name}!"
+    return f"Привіт, {name}":
 
-def farewell(name: str) -> str:
-    """Повертає прощальне повідомлення."""
-    return f"До побачення, {name}!"
-
-if __name__ == "__main__":
+if __name__=="__main__":
     print(greet("Студент"))
-    print(farewell("Студент"))
